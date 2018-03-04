@@ -1,0 +1,38 @@
+body {
+  font-family: 'modem', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section[data-use="gameBoard"]{
+  background-image: url('../assets/img/fond.jpg');
+}
+
+div[data-vertical]{
+  display: flex;
+}
+
+.imgDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDiv img {
+  max-width: 90%;
+  height: auto;
+}
+
+section[data-use="menu"]{
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: auto;
+
+}
+
+p {
+  background-color: white;
+  padding-left: 25px;
+  color: red;
+}
